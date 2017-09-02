@@ -1,4 +1,4 @@
-package hello;
+package countries;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;

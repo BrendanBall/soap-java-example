@@ -43,7 +43,7 @@ task genJaxb {
             mkdir(dir: classesDir)
 
             xjc(destdir: sourcesDir, schema: schema,
-                    package: "hello.wsdl") {
+                    package: "countries.wsdl") {
                 arg(value: "-wsdl")
                 produces(dir: sourcesDir, includes: "**/*.java")
             }
